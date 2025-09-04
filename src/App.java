@@ -76,7 +76,7 @@ public class App {
     String bmiInterpretation =""; // Interpretation for the computed BMI
 // compute interpretation for the computed BMI
     if(computedBMI < 18.5) {
-        bmiInterpretation = "Underwirght";
+        bmiInterpretation = "Underweight";
     }
     if ((computedBMI >= 18.5) && (computedBMI < 25.0) ){
        bmiInterpretation = "Normal";
